@@ -17,7 +17,7 @@ export const HomeHeadline = styled.div`
 	font-style: italic;
   font-size: 6rem;
   align-self: end;
-  margin: 0 0 2rem 0;
+  margin: 0 0 3rem 0;
 
   @media screen and (max-width: 768px) {
     font-size: 4rem;
@@ -29,6 +29,7 @@ export const HomeSubhead = styled.div`
   font-size: 3rem;
   align-self: end;
   margin: 0 0 2rem 0;
+  line-height: 3.5rem;
 `
 
 export const HomeContent = styled.div`

@@ -50,6 +50,7 @@ export const AboutInfo = styled.div`
 export const AboutTitle = styled.div`
   font-size: 4rem;
   font-weight: 400;
+  line-height: 5rem;
 
   a {
     color: #000;
@@ -68,7 +69,7 @@ export const AboutTitle = styled.div`
 export const AboutCopy = styled.div`
   font-size: 1.75rem;
   margin: 2rem 0;
-  line-height: 2.5rem;
+  line-height: 2.75rem;
 `
 
 export const AboutValues = styled.div`
@@ -78,8 +79,8 @@ export const AboutValues = styled.div`
 
 export const ValuesSection = styled.div`
   max-width: 1100px;
-  margin: 2rem auto;
-  padding: 3rem 0;
+  margin: 6rem auto;
+  padding: 6rem 0;
   font-size: 2.25rem;
   font-weight: 600;
 
@@ -103,4 +104,41 @@ export const ValueDesc = styled.div`
   font-size: 1.75rem;
   font-weight: 400;
   margin: 1rem 0 3rem 2.8rem;
+`
+
+export const Footer = styled.div`
+  width: 100%;
+  margin: 6rem auto;
+  max-width: 1100px;
+
+  @media screen and (max-width: 1100px) {
+    margin: 6rem 3rem;
+    grid-template-columns: 1fr;
+  }
+`
+
+export const FooterMain = styled.div`
+  font-size: 2.25rem;
+  font-weight: 700;
+`
+
+export const FooterText = styled.div`
+  font-size: 1.25rem;
+`
+export const FooterLinks = styled.div`
+  height: 2rem;
+  display: flex;
+  margin: 2rem auto;
+`
+
+export const FooterLink = styled.div`
+  display: flex;
+  
+  margin: 0 1.5rem 0  0;
+
+  svg {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #e75a58; 
+  }
 `

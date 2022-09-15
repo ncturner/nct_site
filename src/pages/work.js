@@ -1,9 +1,12 @@
-import React from 'react'
+import WorkSection from "../components/WorkSection";
 
-const work = () => {
+
+const Work = () => {
   return (
-    <div>work stuff</div>
+    <>
+      <WorkSection />
+    </>
   )
 }
 
-export default work
+export default Work

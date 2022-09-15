@@ -1,6 +1,9 @@
 import React from 'react'
 import BioPic from '../../assets/imgs/bio.jpg'
-import { AboutContainer, AboutArticle, AboutPic, AboutInfo, AboutTitle, AboutCopy, AboutValues, ValuesSection, ValuesStatement, ValueIcon, ValueDesc } from './AboutSectionElements';
+import {FaLinkedin} from 'react-icons/fa'
+import {FaDribbbleSquare} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
+import { AboutContainer, AboutArticle, AboutPic, AboutInfo, AboutTitle, AboutCopy, AboutValues, ValuesSection, ValuesStatement, ValueIcon, ValueDesc, Footer, FooterMain, FooterText, FooterLinks, FooterLink } from './AboutSectionElements';
 
 const AboutSection = () => {
   return (
@@ -44,16 +47,16 @@ const AboutSection = () => {
             <ValueIcon>🤔</ValueIcon>Allow yourself to fail.
           </ValuesStatement>
           <ValueDesc>
-            Embracing failure is hard, but it's great way to better understand how to avoid the same pitfalls in the future. My biggest advances
-            have often come after analyzing a failure and learning from it. Over the years I've trained myself to see failure a success. Maybe it's my 
+            Embracing failure is hard, but it's a great way to better understand how to avoid the same pitfalls in the future. My biggest advances
+            have often come after analyzing a failure and learning from it. Over the years I've trained myself to see failure as a success. Maybe it's my 
             optimism, but I also see it as an essential part of the learning process.
           </ValueDesc>
           <ValuesStatement>
             <ValueIcon>🙌</ValueIcon>Lift up those around you.
           </ValuesStatement>
           <ValueDesc>
-            I wouldn't be where I'm at without all the support I've had over the years from my family, my friends and my colleagues. They've recognized
-             me when I'm successful and when I'm struggling with something. It's important that I give that recognition back to others as often as possible. 
+            I wouldn't be where I am without all the support I've had over the years from my family, my friends and my colleagues. They've supported
+             me when I'm successful and when I'm struggling with something. It's important that I give that support back to others as often as possible. 
              Whether it's mentorships, knowledge sharing or just being there to listen, I want to be a force of positivity and help build up those around me.
           </ValueDesc>
           <ValuesStatement>
@@ -65,7 +68,21 @@ const AboutSection = () => {
           </ValueDesc>
         </ValuesSection>
       </AboutValues>
+      <Footer>
+        <FooterMain>
+          Don't hesitate to investigate!
+        </FooterMain>
+        <FooterText>
+          Say hi and see what I'm up to.
+        </FooterText>
+        <FooterLinks>
+          <FooterLink><a href="mailto: nicholas.c.turner@gmail.com"><MdEmail /></a></FooterLink>
+          <FooterLink><a href="https://www.linkedin.com/in/nickcturner" target="blank"><FaLinkedin /></a></FooterLink>
+          <FooterLink><a href="https://dribbble.com/ncturner" target="blank"><FaDribbbleSquare /></a></FooterLink> 
+        </FooterLinks>
+      </Footer>
     </AboutContainer>
+    
   )
 }
 
