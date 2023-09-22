@@ -8,11 +8,11 @@ const HomeSection = () => {
         Hello! I'm Nick Turner.
       </HomeHeadline>
       <HomeSubhead>
-        I like to design software products for humans, make electronic music on synthesizers &amp; cook homemade pizzas.
+        I like to design software products for humans, make electronic music on synthesizers &amp; bake homemade pizzas.
       </HomeSubhead>
       <HomeContent>
-        I'm a UX and product design lead based out of Chattanooga, TN. I currently work at <a href="https://www.codescience.com/" target="blank">Code|Science</a> building
-        enterprise solutions for clients on the Salesforce Platform. I'm an incredibly curious 
+        I'm a UX and product design lead based out of Chattanooga, TN. I currently work at <a href="https://www.buildium.com/" target="blank">Buildium</a> researching, 
+        designing, and building user-centered solutions for property management companies. I'm an incredibly curious 
         tinkerer with a passion for exploring possibility through mutually beneficial research and 
         collaborative creativity.
       </HomeContent>

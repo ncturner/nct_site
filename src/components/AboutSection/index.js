@@ -14,21 +14,25 @@ const AboutSection = () => {
         </AboutPic>
         <AboutInfo>
           <AboutTitle>
-            UX and Product Design Lead @ <a href="https://www.codescience.com/" target="blank">Code|Science</a>
+            Principal Product Designer @ <a href="https://www.buildium.com/" target="blank">Builidium</a>
           </AboutTitle>
           <AboutCopy>
-          For over 6 years I have been a UX and Product Design Lead helping teams plan, build, and bring products to market 
-          primarily on the Salesforce platform. As a Salesforce certified UX designer and seasoned professional with over 15 
-          years experience, I have worked with a wide range of clients in a variety of industries including Ford, Rocket Mortgage, 
-          IQVIA, Salesforce, Mailchimp and Twilio.
+          For the last 8 years I have been working as a ux and product design lead, helping agile teams plan, build, and bring 
+          products to market. After graduating in 2009 with a BFA in graphic design from the University of Tennessee at Chattanooga, 
+          I worked as a designer at marketing and ad agencies, startups, and large enterprise companies before discovering and 
+          dedicating my career to experience and product design. Over the course of more than 15 years, I have worked with and for 
+          a wide range of clients and companies in a variety of industries including Ford, Rocket Mortgage, IQVIA, Blue Cross 
+          Blue Shield, Salesforce, Mailchimp and Twilio.
           </AboutCopy>
           <AboutCopy>
-          In my role as a product design lead at CodeScience, I am part of a diverse design team focused on the needs of people 
-          using enterprise software. I collaborate across teams and roles as part of an agile build team helping to coordinate 
-          with our clients and define product vision, roadmaps, and requirements for new offerings and existing product releases. 
-          Using a human-centered design approach, I work closely with Product Owners and Technical Architects to deeply understand 
-          user problems and how to solve them in innovative ways that leverage both design best practices and technical capabilities, 
-          meeting the user's and business' needs.
+          In my role as principal product designer at Builidum, I am part of a diverse user experience team focused on the needs 
+          of people running property management companies and the staff, owners, and residents they interact with. I support 
+          multiple scrum teams collaborating closely with product managers and engineering teams to define product vision, roadmaps, 
+          and requirements for new offerings and existing product releases. Using a human-centered design approach, I coordinate 
+          research efforts in order to understand user problems through a variety of methodologies including user interviews, 
+          prototyping, and facilitating ux activities with my teams intended to create a shared understanding of the problem 
+          space and develop deep empathy for our customers. In addition to ux and product work, I lead internal initiatives, 
+          mentor associate designers, and help to design, maintain and improve the organization’s robust design system. 
           </AboutCopy>
         </AboutInfo>
       </AboutArticle>
@@ -55,9 +59,9 @@ const AboutSection = () => {
             <ValueIcon>🙌</ValueIcon>Lift up those around you.
           </ValuesStatement>
           <ValueDesc>
-            I wouldn't be where I am without all the support I've had over the years from my family, my friends and my colleagues. They've supported
+            I wouldn't be where I am without all the support I've had over the years from my family, my friends, and my colleagues. They've supported
              me when I'm successful and when I'm struggling with something. It's important that I give that support back to others as often as possible. 
-             Whether it's mentorships, knowledge sharing or just being there to listen, I want to be a force of positivity and help build up those around me.
+             Whether it's mentoring, knowledge sharing or just being there to listen, I want to be a force of positivity and help build up those around me.
           </ValueDesc>
           <ValuesStatement>
             <ValueIcon>🧘</ValueIcon>Take care of yourself.
