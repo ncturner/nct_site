@@ -3,7 +3,7 @@ import BioPic from '../../assets/imgs/bio.jpg'
 import {FaLinkedin} from 'react-icons/fa'
 import {FaDribbbleSquare} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
-import { AboutContainer, AboutArticle, AboutPic, AboutInfo, AboutTitle, AboutCopy, AboutValues, ValuesSection, ValuesStatement, ValueIcon, ValueDesc, Footer, FooterMain, FooterText, FooterLinks, FooterLink } from './AboutSectionElements';
+import { AboutContainer, AboutArticle, AboutPic, AboutInfo, AboutTitle, AboutCopy, Footer, FooterMain, FooterText, FooterLinks, FooterLink } from './AboutSectionElements';
 
 const AboutSection = () => {
   return (
@@ -36,7 +36,7 @@ const AboutSection = () => {
           </AboutCopy>
         </AboutInfo>
       </AboutArticle>
-      <AboutValues>
+      {/* <AboutValues>
         <ValuesSection>
           My Values
           <ValuesStatement>
@@ -71,7 +71,7 @@ const AboutSection = () => {
             to myself. So, yes, I take time to disconnect, realign and recharge. We all need that and it's definitely a priority for me.    
           </ValueDesc>
         </ValuesSection>
-      </AboutValues>
+      </AboutValues> */}
       <Footer>
         <FooterMain>
           Don't hesitate to investigate!

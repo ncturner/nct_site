@@ -13,12 +13,12 @@ export const WorkSection = () => {
       <WorkHeader>
         Recent Work
       </WorkHeader>
-      <a href="/Iqvia"><WorkImage>
+      <WorkImage to="/iqvia">
         <img src={IQLogo} alt="IQVIA Logo" />
-      </WorkImage></a>
-      <a href="/Pae"><WorkImage>
+      </WorkImage>
+      <WorkImage to="/pae">
         <img src={PAELogo} alt="People Are Everything Logo" />
-      </WorkImage></a>
+      </WorkImage>
       <Footer>
         <FooterMain>
           Don't hesitate to investigate!

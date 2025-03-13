@@ -4,11 +4,10 @@ html {
 
 body {
   margin: 0;
-  font-family: 'IBM Plex Serif', 'serif';
+  font-family: 'IBM Plex Sans', 'sans-serif';
   color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 3rem;
-  
 }
 
