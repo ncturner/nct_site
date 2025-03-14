@@ -28,7 +28,7 @@ const HomeSection = () => {
         that foster deep customer empathy and bring product vision to life. He also mentors associate designers and plays 
         a key role in developing and maintaining Buildium's enterprise design system.</p>
         
-        Nick likes to design software products for humans, make electronic music on synthesizers, fly fish &amp; bake homemade pizzas.
+        <p>Nick likes to design software products for humans, make electronic music on synthesizers, fly fish &amp; bake homemade pizzas.</p>
       </HomeContent> 
       <Footer>
         <FooterMain>
